@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2021, 9:59:34 AM
+    Author     : khoi.tranvan
+*/
+
+
+.container{
+    width:980px;
+    margin: 0 auto;
+    height:auto;
+}
+
+.header {
+    width: 100%;
+    max-width:980px;
+    height: 220px;
+    background-image: url("../images/front.jpg");
+}
+
+.footer{
+    width:980px;
+    height:84px;
+    background-image: url(../images/footerbg.jpg);
+}
+.main{
+    display: flex;
+    width: 980px;
+    height: auto;
+
+}
+.left{
+    width: 170px;
+    height: auto;
+
+}
+.right{
+    width: 640px;
+    height: auto;
+}
+
+.menu {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    background-image: linear-gradient(white, #e6e6e6);
+    color: black;
+}
+
+.menu-right {
+          
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 5px;
+    background-image: linear-gradient(white, #e6e6e6);
+    color: black;
+}
+
+a.date {
+    font-weight: bold;
+    pointer-events: none;
+
+}
+
+.login{
+    text-align: center;
+    width:600px;
+    margin: 0 auto;
+    height:auto;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: #4894c3
+}
+
+.green{
+    color: #7eae76;
+}
+
+td .view{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th .view{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table .view{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers td{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-image: linear-gradient(white, #e6e6e6);
+    color: black;
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+.search{
+    padding-bottom: 30px;
+    background-image: linear-gradient(white, #e6e6e6);
+}
+
+.button{
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+    background-image: linear-gradient(white, #e6e6e6);
+}
+
+.w-100{
+    width: 100px;
+}
+
+.w-60{
+    width: 60px;
+}
+
+.w-90{
+    width: 90px;
+}
+.input{
+    border-radius: 4px;
+    border-color: #f2f2f2;
+    border-collapse: collapse;
+}
+
+.fontarial{
+    font-family: arial;
+}
+
+#textarea {
+    border-left: outset;
+    border-right: inset;
+    border-bottom: inset;
+    border-top: inset;
+}
+
+.textright {
+    text-align: right;
+}
+
+.menu-div{
+    display: none;
+}
+
+@media all and (max-width: 600px){
+    .main{
+        width: 70%;
+    }
+    .menu{
+        display: none;
+    }
+    .left{
+        width: 80%;
+    }
+    .menu-div{
+        display: block;
+    }
+}
+
